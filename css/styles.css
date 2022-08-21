@@ -35,7 +35,7 @@
     color: var(--dark-txt-cl);
     font-family: var(--secondary-font);
     font-size: 26px;
-    line-height: calc (31 / 26);
+    line-height: calc(31 / 26);
     letter-spacing: 0.03em;    
     text-decoration: none;
 }
@@ -47,7 +47,7 @@
 .nav-list {
     font-weight: 500;
     font-size: 14px;
-    line-height: calc (16 / 14);
+    line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     cursor: pointer;
 }
