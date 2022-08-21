@@ -1,22 +1,88 @@
-body {
-    background-color: #FFFFFF;
-    color: #757575;
-    
+:root {
+    /*Fonts*/    
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+    /*Text colors*/
+    --main-txt-cl: #212121;
+    --secondary-txt-cl: #757575;
+    --accent-txt-cl: #2196F3;
+    --light-txt-cl: #FFFFFF;
+    /*Background colors*/
+    --main-bg-cl: #FFFFFF;
+    --secondary-bg-cl: #F5F4FA;
+    --accent-bg-cl: #2196F3;
+    /*Others*/
 }
 
-/*цвет основного текста #212121 */
+.page {
+    font-family: var(--main-font);
+    color: var(--main-txt-cl);
+}
 
-/*вторичный цвет текста #757575 */
+/*Reset*/
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
 
-/* белый #FFFFFF */
+.list {
+    list-style: none;
+}
 
-/*вторичный увет фона background: #F5F4FA */
+.page-header {}
+
+.main.nav {}
+
+.logo {
+    font-family: var(--secondary-font);    
+}
+
+.list-item {
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+}
+
+
+color: var(--secondary-txt-cl);
+
+
+
+  
+
+
+
+
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+
+
+
+
+
+
 
 /* черный логотип шапка #000000 */
 
 /* подвал почта и телефон rgba(255, 255, 255, 0.6) */
 
-/* акцент #2196F3 */
+
 
 
 
