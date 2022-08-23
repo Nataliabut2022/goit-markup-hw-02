@@ -72,11 +72,14 @@
 }
 
 .hero {
-    background-color: #2F303A;
+    background-color: #2F303A;    
+}
+
+.hero-title {
     color: var(--light-txt-cl);
     font-weight: 900;
     font-size: 44px;
-    line-height: calc(60 / 44);    
+    line-height: calc(60 / 44);
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -86,10 +89,10 @@
     background-color: var(--accent-bg-cl);
     color: var(--light-txt-cl);
     font-size: 16px;
-    line-height: calc(30 / 16);
-    display: flex;     
-    letter-spacing: 0.06em;    
-    
+    line-height: calc(30 / 16);     
+    letter-spacing: 0.06em;   
+    font-family: inherit; 
+    font-weight: 700;    
 }
 
 .btn2 {
