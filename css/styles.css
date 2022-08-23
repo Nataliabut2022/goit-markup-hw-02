@@ -148,11 +148,11 @@
     letter-spacing: 0.03em;
 }
 
-.team-text {
-    font-size: 16px;
+.team-text {    
     line-height: calc(19 / 16);      
     text-align: center;
     letter-spacing: 0.03em;
+    color: var(--secondary-txt-cl);
 }
 
 .portfolio .list {
@@ -166,8 +166,7 @@
     letter-spacing: 0.06em;
 }
 
-.portfolio-text {
-    font-size: 16px;
+.portfolio-text {      
     line-height: calc(30 / 16);       
     letter-spacing: 0.03em;
     color: #757575;
