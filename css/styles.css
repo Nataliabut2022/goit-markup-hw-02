@@ -100,6 +100,11 @@
     border-radius: 4px;
     background-color: var(--secondary-bg-cl);    
     cursor: pointer;
+    font-size: 16px;
+    line-height: calc(26 / 16);    
+    letter-spacing: 0.03em;
+    font-family: inherit;
+    font-weight: 500;
 }
 
 .btn2:hover,
